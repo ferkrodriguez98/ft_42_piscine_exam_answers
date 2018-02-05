@@ -26,7 +26,7 @@ int		ft_atoi_tab_mult(char *str)
 	i = 0;
 	while (str[i])
 	{
-		res *= 10; 
+		res *= 10;
 		res	+= (int)str[i] - '0';
 		i++;
 	}
@@ -82,4 +82,4 @@ int		main(int argc, char **argv)
 		mult++;
 	}
 	return (0);
-}	
+}
